@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1605732530 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_calcolo_fattoriale\main.c
+	<stdio.h>
+	<stdlib.h>
+

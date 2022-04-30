@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1606132064 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_conta_parole_lettere_righe_stringhe\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"header.h"
+
+1606132150 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_conta_parole_lettere_righe_stringhe\function.c
+
+1606131848 c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_conta_parole_lettere_righe_stringhe\header.h
+
