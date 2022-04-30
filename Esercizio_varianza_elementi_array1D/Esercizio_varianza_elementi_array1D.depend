@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1605983990 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_varianza_elementi_array1d\function.c
+
+1605983968 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_varianza_elementi_array1d\main.c
+	<stdio.h>
+	<stdlib.h>
+	"header.h"
+
+1605983939 c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_varianza_elementi_array1d\header.h
+

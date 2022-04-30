@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1606227279 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_uguaglianza_array1d\function.c
+
+1606227109 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_uguaglianza_array1d\main.c
+	<stdio.h>
+	<stdlib.h>
+	"header.h"
+
+1606226987 c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_uguaglianza_array1d\header.h
+

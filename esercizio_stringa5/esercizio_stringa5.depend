@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1606393100 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_stringa5\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

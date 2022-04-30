@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1606341935 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_stringhe2\function.c
+
+1606342114 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_stringhe2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"header.h"
+
+1606342114 c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_stringhe2\header.h
+	<string.h>
+
