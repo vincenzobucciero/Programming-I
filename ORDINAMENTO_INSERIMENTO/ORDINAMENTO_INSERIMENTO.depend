@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1606408467 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\ordinamento_inserimento\function.c
+
+1606151155 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\ordinamento_inserimento\main.c
+	<stdio.h>
+	<stdlib.h>
+	"header.h"
+
+1606151040 c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\ordinamento_inserimento\header.h
+

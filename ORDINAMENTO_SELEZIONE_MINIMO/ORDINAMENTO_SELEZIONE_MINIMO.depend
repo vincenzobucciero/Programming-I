@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1606412625 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\ordinamento_selezione_minimo\function.c
+
+1606410342 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\ordinamento_selezione_minimo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"header.h"
+
+1606152401 c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\ordinamento_selezione_minimo\header.h
+

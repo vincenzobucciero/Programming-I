@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1609325779 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\pr_programmazione\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<windows.h>
+
+1609174324 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\pr_programmazione\function.c
+	<stdlib.h>
+	<stdio.h>
+	"header.h"
+
+1608718982 c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\pr_programmazione\header.h
+

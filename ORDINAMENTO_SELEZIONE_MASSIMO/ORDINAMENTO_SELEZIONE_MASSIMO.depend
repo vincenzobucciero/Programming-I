@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1606413780 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\ordinamento_selezione_massimo\function.c
+
+1606161629 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\ordinamento_selezione_massimo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"header.h"
+
+1606161558 c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\ordinamento_selezione_massimo\header.h
+

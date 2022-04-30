@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1608721044 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\gotoxy\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<windows.h>
+
