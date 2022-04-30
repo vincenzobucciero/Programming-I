@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1603962021 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_da_solo_1\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1603968137 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_da_solo_1\libreria.c
+	"libreria.h"
+
+1603968144 c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_da_solo_1\libreria.h
+

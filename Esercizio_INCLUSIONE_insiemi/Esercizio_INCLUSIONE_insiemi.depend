@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1606078824 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_inclusione_insiemi\function.c
+
+1606078333 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_inclusione_insiemi\main.c
+	<stdio.h>
+	<stdlib.h>
+	"header.h"
+
+1606078333 c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_inclusione_insiemi\header.h
+

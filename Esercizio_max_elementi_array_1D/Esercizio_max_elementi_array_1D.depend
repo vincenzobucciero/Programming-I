@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1605722413 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_max_elementi_array_1d\function.c
+
+1605722358 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_max_elementi_array_1d\main.c
+	<stdio.h>
+	<stdlib.h>
+	"header.h"
+
+1605722358 c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_max_elementi_array_1d\header.h
+

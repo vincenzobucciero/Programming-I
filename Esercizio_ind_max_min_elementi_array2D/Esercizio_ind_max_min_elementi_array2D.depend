@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1605980418 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_ind_max_min_elementi_array2d\function.c
+
+1605979993 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_ind_max_min_elementi_array2d\main.c
+	<stdio.h>
+	<stdlib.h>
+
