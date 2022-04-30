@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1605982725 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_max_trisup_elementi_array2d\function.c
+
+1606134582 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_max_trisup_elementi_array2d\main.c
+	<stdio.h>
+	<stdlib.h>
+	"header.h"
+
+1605982583 c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_max_trisup_elementi_array2d\header.h
+

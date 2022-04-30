@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1606247578 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_media_righe_array2d\function.c
+
+1606247538 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_media_righe_array2d\main.c
+	<stdio.h>
+	<stdlib.h>
+

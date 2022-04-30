@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1605897791 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_medie_centrate_inplace\main.c
+	<stdio.h>
+	<stdlib.h>
+	"header.h"
+
+1605897791 c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_medie_centrate_inplace\header.h
+
