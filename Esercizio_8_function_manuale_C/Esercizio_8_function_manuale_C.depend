@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1605291414 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_10_costrutti_manuale_c\esercizio_8_function_manuale_c\function.c
+
+1605291319 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_10_costrutti_manuale_c\esercizio_8_function_manuale_c\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"header.h"
+
+1605289095 c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_10_costrutti_manuale_c\esercizio_8_function_manuale_c\header.h
+
