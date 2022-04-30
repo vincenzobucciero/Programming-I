@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1605892322 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_medie_in_avanti_inplace\main.c
+	<stdio.h>
+	<stdlib.h>
+	"header.h"
+
+1605892271 c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_medie_in_avanti_inplace\header.h
+
+1605892519 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_medie_in_avanti_inplace\function.c
+

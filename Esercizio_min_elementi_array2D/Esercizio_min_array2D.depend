@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1605977829 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_min_array2d\function.c
+
+1605977638 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_min_array2d\main.c
+	<stdio.h>
+	<stdlib.h>
+	"header.h"
+
+1605977437 c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_min_array2d\header.h
+

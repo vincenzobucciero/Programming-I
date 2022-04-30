@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1604689257 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_10_costrutti_manuale_c\esercizio_somma_elementi_array\function.c
+	"header.h"
+
+1604688194 c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_10_costrutti_manuale_c\esercizio_somma_elementi_array\header.h
+
+1604689177 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_10_costrutti_manuale_c\esercizio_somma_elementi_array\main.c
+	<stdio.h>
+	<stdlib.h>
+	"header.h"
+
+1604697317 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_somma_elementi_array\esercizio_somma_elementi_array\main.c
+	<stdio.h>
+	<stdlib.h>
+	"header.h"
+
+1604697285 c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_somma_elementi_array\esercizio_somma_elementi_array\header.h
+
+1604697262 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_somma_elementi_array\esercizio_somma_elementi_array\function.c
+	"header.h"
+
+1604697262 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_somma_elementi_array1d\esercizio_somma_elementi_array\function.c
+	"header.h"
+
+1604697285 c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_somma_elementi_array1d\esercizio_somma_elementi_array\header.h
+
+1604697317 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_somma_elementi_array1d\esercizio_somma_elementi_array\main.c
+	<stdio.h>
+	<stdlib.h>
+	"header.h"
+

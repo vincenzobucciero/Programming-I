@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1605907340 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_merge_array1d\main.c
+	<stdio.h>
+	<stdlib.h>
+	"header.h"
+
+1605905357 c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_merge_array1d\header.h
+
+1605907778 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_merge_array1d\function.c
+

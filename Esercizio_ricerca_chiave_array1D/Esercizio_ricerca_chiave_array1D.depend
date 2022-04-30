@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1605807627 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_ricerca_chiave_array1d\function.c
+
+1605807818 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_ricerca_chiave_array1d\main.c
+	<stdio.h>
+	<stdlib.h>
+	"header.h"
+
+1605807627 c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\esercizio_ricerca_chiave_array1d\header.h
+
