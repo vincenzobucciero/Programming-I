@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1608056614 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\ricerca_binaria_(iterativo)\function.c
+
+1608056687 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\ricerca_binaria_(iterativo)\main.c
+	<stdio.h>
+	<stdlib.h>
+	"header.h"
+
+1608056614 c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\ricerca_binaria_(iterativo)\header.h
+

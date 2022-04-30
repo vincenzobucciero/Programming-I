@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1606146608 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\string_matching\function.c
+
+1606146402 source:c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\string_matching\main.c
+	<stdio.h>
+	<stdlib.h>
+	"header.h"
+
+1606145421 c:\users\admin\desktop\esercizi programm. i e lab. di programm. i\string_matching\header.h
+	<string.h>
+
+1606150650 source:c:\users\admin\desktop\università\programmazione_1\esercizi programm. i e lab. di programm. i\string_matching\function.c
+
+1606150002 source:c:\users\admin\desktop\università\programmazione_1\esercizi programm. i e lab. di programm. i\string_matching\main.c
+	<stdio.h>
+	<stdlib.h>
+	"header.h"
+
+1606149021 c:\users\admin\desktop\università\programmazione_1\esercizi programm. i e lab. di programm. i\string_matching\header.h
+	<string.h>
+
