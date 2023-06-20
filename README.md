@@ -18,9 +18,9 @@ To clone this repository to your local machine, follow these steps:
 
     3. Run the following command:
     
-    ```
-    git clone https://github.com/your-username/Programming-I.git
-    ```
+```
+git clone https://github.com/your-username/Programming-I.git
+```
     Replace your-username with your GitHub username.
     
     4. Wait for the cloning process to complete.
