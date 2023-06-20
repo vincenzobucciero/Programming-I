@@ -41,7 +41,7 @@ Your contributions will be reviewed, and if accepted, they will be merged into t
 # License
 The exercises in this repository are provided under the following license:
 
-MIT License
+Apache License 2.0
 
 Please review the LICENSE file for more details on the usage and distribution rights.
 
