@@ -12,29 +12,29 @@ Each exercise folder typically contains a C source code file (e.g., exercise1.c)
 # Cloning the Repository
 To clone this repository to your local machine, follow these steps:
 
-    1. Open your terminal or command prompt.
+1. Open your terminal or command prompt.
 
-    2. Navigate to the directory where you want to clone the repository.
+2. Navigate to the directory where you want to clone the repository.
 
-    3. Run the following command:
+3. Run the following command:
     
 ```
 git clone https://github.com/your-username/Programming-I.git
 ```
-    Replace your-username with your GitHub username.
+Replace your-username with your GitHub username.
     
-    4. Wait for the cloning process to complete.
+4. Wait for the cloning process to complete.
     
 Once the repository is cloned, you can access the exercises and their respective source code files on your local machine.
 
 # Contributing
 Contributions to this repository are welcome. If you would like to contribute additional exercises, improvements, or fixes, please follow these steps:
 
-    Fork the repository on GitHub.
-    Create a new branch for your changes.
-    Make your modifications or add new exercises.
-    Commit your changes and push them to your forked repository.
-    Submit a pull request to the original repository.
+Fork the repository on GitHub.   
+Create a new branch for your changes.
+Make your modifications or add new exercises.
+Commit your changes and push them to your forked repository.
+Submit a pull request to the original repository.
 
 Your contributions will be reviewed, and if accepted, they will be merged into the main repository.
 
