@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+	body {
+		background-image: url(imagesprogram/Sfondo.jpg);
+		background-attachment: fixed;
+		background-size: 100% 100%;
+		}
+
+</style>
+</head>
+<body>
+
+	<h2>ALGORITMO PER LA SIMULAZIONE DINAMICA DI "CELLULE"</h2>
+	<p>Questo è un programma che simula il comportamento di alcune cellule, che si dividono in cellule bianche e cellule nere
+	   con particolari condizioni. </p>
+	   <p>Si consideri un array 2D 40x40. Ogni elemento dell’array è detto ‘cellula’. Una
+		cellula può essere bianca o nera. Una cellula bianca viene visualizzata con uno spazio
+		(blank ‘ ‘), una cellula nera con ‘X’. All’inizio vi è solo una cellula nera, al 60-simo
+		posto della prima riga; tutte le altre cellule sono bianche. Sviluppare un algoritmo
+		iterativo che, a partire dalla prima riga, a ogni passo aggiorna una sola riga
+		dell’array, ovvero al secondo passo aggiorna la seconda riga, al terzo passo aggiorna
+		la terza riga e così via, fino all’ultima riga. Al passo i-simo, la riga i-sima viene
+		aggiornata considerando solo la riga (i-1)-sima, secondo la seguente regola:
+		la cellula j della riga i-sima diventa nera se:
+			<p>a. nella riga (i-1)-sima la cellula j e la cellula j-1 sono nere e la cellula j+1 è
+			bianca;</p>
+			<p>b. nella riga (i-1)-sima le cellule j-1 e j+1 sono nere e la cellula j è bianca;</p>
+			<p>c. nella riga (i-1)-sima la cellula j e la cellula j+1 sono nere e la cellula j-1 è
+			bianca;</p>
+			<p>d. nella riga (i-1)-sima la cellula j è nera e le cellule j+1 e j-1 sono bianche;</p>
+			<p>e. nella riga (i-1)-sima la cellula j+1 è nera e le cellule j e j-1 sono bianche;</p>
+			
+	<h1 align="left"> //Main.c </h1>
+<pre>
+#include &#60stdio.h&#62
+#include &#60stdlib.h&#62
+#include "header.h"
+
+
+<strong>//All'interno del main sono andato ad inserire la condizione iniziale della matrice per poi stamparla</strong>
+
+int main()
+{
+	int i=0, j;
+	int righe = 40, colonne = 40;		<strong>//Variabili che indicano il numero di righe e colonne della matrice</strong>
+	char v1[40][40];		<strong>//Dichiarazione della matrice</strong>
+	
+
+
+        for (i=0;i&#60righe;i++)		<strong>//Ciclo for annidato che permette lo scorrimento di tutta la matrice</strong>
+			{
+				for(j=0;j&#60colonne;j++)
+				{
+					v1[i][j] = ' ';			<strong>//Stampo in tutte le posizioni della matrice un '-' che indica che la cellula in quella posizione è BIANCA</strong>
+				}
+			}
+
+			v1[0][19] = 'X';		<strong>//TRANNE IN QUESTA POSZIONE, v1[0][19], CHE RAPPRESENTA LA CONDIZIONE INIZIALE DELLA MATRICE, QUI VIENE STAMPATA UNA 'X',</strong>
+									<strong>//CHE INDICA CHE LI LA CELLULA E' NERA</strong>
+
+			stampa_matrice(v1);			<strong>//Richiamo della function stampa matrice, che stamperà la trice iniziale</strong>
+
+
+		simulazione_cellule(v1); 		<strong>//Richiamo della function simulazione cellule che permetterà invece di stampare, sempre dopo comando dell'utente,</strong>
+										<strong>//la stessa matrice ma aggiornata di una riga.</strong>
+
+}
+</pre>
+
+<h1 align="left"> //Function.c </h1>	
+<pre>
+#include "header.h"
+
+<strong>/*Function che permette di stampare la matrice 40x40*/</strong>
+
+int stampa_matrice(char v1[40][40])
+{
+	int i=0, j;
+	int n = 40; 		<strong>//Variabile che indica la quantità di righe della matrice</strong>
+	int m = 40; 		<strong>//Variabile che indica la quantità delle colonne della matrice</strong>
+
+    system("cls");		<strong>//Funtion che permette di pulire lo schermo prima di cominciare a stampare</strong>
+
+        printf("Al passo %d-esimo, la matrice e':       \n",i);
+
+		for ( i = 0 ; i &#60 n ; i++ ) 		<strong>//Ciclo for annidato che scorre tutte le righe e le colonne della matrice</strong>
+		{
+			for ( j = 0 ; j &#60 m ; j++ )
+			{
+                    printf(" %c", v1[i][j]);    	<strong>//Stampo la matrice</strong>
+			}
+
+			printf("\n");
+		}
+
+	  system("pause"); 			<strong>//Function che mette in pausa il programma fin quando l'utente premendo un qualsiasi tasto lo fa riprendere</strong>
+
+	return 0;
+
+
+}
+
+
+<strong>/*Function che, stipulate determinate condizioni, permette di stampare la stessa matrice iniziale, ma
+        con i valori delle cellule aggiornate, cioè, ad ogni passo i-esimo, viene aggiornata solo una riga alla volta.
+        Ricordiamo che con la 'X' indico una cellula NERA, con un ' ' una cellula BIANCA */</strong>
+
+int simulazione_cellule(char v1[40][40])
+{
+	int i, j;
+	int righe = 40;
+	int colonne = 40;
+
+
+
+            <strong>/*Ciclo for annidato che permette di scorrere tutta la matrice. Il For piu' esterno va da 1 fino alla riga massima perchè devve sostanzialmete
+            comicniare ad aggiornare dalla riga 1 poichè la riga 0 è già sistemata nella condizione iniziale della matrice.
+            Il For interno invece comincia sempre da 1 ma termina a 39, cioè la colonna massima. */</strong>
+			
+			for (i=1;i&#60righe;i++)
+			{
+				for(j=0;j &#60 39;j++)		<strong>//Questi due cicli for ANNIDATI mi permettono di controllare la riga precedente e le colonne precedenti e seguenti della cella di riferimento</strong>
+				{
+
+				    <strong>/*QUANDO SI SCRIVE v1[i-1][...] SI FA RIFERIMETO ALLA RIGA PRECEDENTE, POICHE SOLO TRAMITE LA CONDIZIONE DELLE CELLULE
+                        NELLA RIGA PRECEDENTE, SI POSSONO VERIFICARE LE CONDIZIONI DELLA RIGA CORRENTE */</strong>
+
+			        if(v1[i-1][j]=='X' && v1[i-1][j-1]=='X' && v1[i-1][j+1]==' ') 		<strong>//CONDIZIONE A</strong>
+                  		{
+                    		v1[i][j]='X';
+                  		}
+                			if(v1[i-1][j]==' ' && v1[i-1][j-1]=='X' && v1[i-1][j+1]==' ') 		<strong>//CONDIZIONE B</strong>
+                  			{
+                    			v1[i][j]='X';
+                  			}
+                				if(v1[i-1][j]=='X' && v1[i-1][j-1]==' ' && v1[i-1][j+1]=='X') 		<strong>//CONDIZIONE C</strong>
+                  				{
+                    				v1[i][j]='X';
+                  				}
+                					if(v1[i-1][j]==' ' && v1[i-1][j-1]==' ' && v1[i-1][j+1]=='X') 		<strong>//CONDIZIONE D</strong>
+                  					{
+                    					v1[i][j]='X';
+                  					}
+                    					if(v1[i-1][j]==' ' && v1[i-1][j-1]==' ' && v1[i-1][j+1]=='X') 		<strong>//CONDIZIONE E</strong>
+                  						{
+                    						v1[i][j]='X';
+                  						}
+               }
+
+                stampa_matrice(v1); <strong>//Richiamo della function stampa matrice, che in questo caso andrà a stampare sempre
+                                    //la stessa matrice ma sempre con una riga aggiornata rispetto a quella precedente.</strong>
+
+                }
+
+
+
+	return 0;
+
+
+
+}
+
+
+<h1 align="left">//Header.h</h1>
+<pre>
+#ifndef HEADER_H_INCLUDED
+#define HEADER_H_INCLUDED
+
+#include &#60stdio.h&#62
+#include &#60stdlib.h&#62
+
+	int stampa_matrice(char v1[40][40]); 		<strong>//prototipo della function che permette di stampare su schermo una matrice</strong>
+
+	int simulazione_cellule(char v1[40][40]); 		<strong>//protoripo della function che simula il cambiamento delle cellule all'aggiornarsi della matrice</strong>
+
+#endif // HEADER_H_INCLUDED
+		
+</pre>
+
+<h1 align = "left">SIMULAZIONE DEL PROGRAMMA </h1>
+<h1>Al passo 0-esimo: </h1>
+<h2>Questo è il primo passo della simulazione dinamica delle cellule. 		         
+Si parte da un array 2D 40x40 dove tutte le posizioni del suddetto
+array sono descritte tramite un blank (' '). Ciò indica che la cellula
+in quella posizione è BIANCA. L'unica posizione che è diversa dalle
+altre è la 20-esima sulla prima riga, caratterizzata da una 'X', la 
+quale X indica che la cellula in quella posizione è NERA.Premendo
+il tasto INVIO, si aggiornerà soltanto la riga successiva a quella
+seguente. Premere ancora per andare avanti. </h2>
+<img src = "imagesprogram/Capture0.jpg">
+
+<h1>Al passo 4-esimo: </h1>
+<h2>Questo è il quarto passo. Qui l'array comincia ad aggiornarsi 
+passo dopo passo cominciando a sostituire, sempre a seconda delle
+condizioni stabilite nel codice facendo riferimento alla riga i-1,
+gli spazi bianchi, cioè i blank (' ') con le 'X', proprio a segnare 
+il cambiamento della cellula da BIANCA a NERA. </h2>
+<img src = "imagesprogram/Capture4.jpg">
+
+<h1>Al passo 8-esimo: </h1>
+<h2>Questo è l'ottavo passo.</h2>
+<img src = "imagesprogram/Capture8.jpg">
+
+<h1>Al passo 16-esimo: </h1>
+<h2>Questo è il sedicesimo passo. Siamo quasi alla metà della simulazione.</h2>
+<img src = "imagesprogram/Capture16.jpg">
+
+<h1>Al passo 32-esimo: </h1>
+<h2>Questo è il trentaduesimo passo. Ci avviciniamo quasi alla fine della simulazione.</h2>
+<img src = "imagesprogram/Capture32.jpg">
+
+<h1>Al passo 40-esimo: </h1>
+<h2>Questo è il quarantesimo e ultimo passo della simulazione.
+Arrivati a questo punto basta premere ancora una volta il tasto 
+INVIO per uscire definitivamente dal programma.</h2>
+<img src = "imagesprogram/Capture40.jpg">
+
+
+
+<h1>FINE SIMULAZIONE.</h1>
+
+</body>
+</html>
